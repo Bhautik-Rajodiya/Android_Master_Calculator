@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E2E3"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/MutualFund"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginEnd="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/mutualfund"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutual Fund"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Interest"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/interest"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interest"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/Discount"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/discount"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/EMI"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/emi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMI"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:id="@+id/SchoolResult"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/schoolresult"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Result"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/SquareOrHour"
+            android:layout_width="160dp"
+            android:layout_height="125dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/squareorhour"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Square Or Hour"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know More"
+                    android:textSize="12dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/arow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

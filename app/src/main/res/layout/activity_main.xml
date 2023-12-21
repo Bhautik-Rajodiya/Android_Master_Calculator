@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1C3B5C">
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/logo"
+       android:layout_gravity="center"/>
+
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="56dp"
+    android:layout_gravity="center">
+   <View
+       android:layout_width="335dp"
+       android:layout_height="53dp"
+       android:background="#1AFBFAFA"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="20dp"
+       android:text="Start App"
+       android:layout_marginTop="16dp"
+       android:textColor="@color/white"
+       android:textSize="16dp" />
+
+   <Button
+       android:id="@+id/StartApp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="end"
+       android:layout_marginTop="3dp"
+       android:background="#1AFBFAFA"
+       android:gravity="center"
+       android:text="Click Here ->"
+       android:textSize="12dp" />
+</FrameLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_gravity="center">
+      <View
+          android:layout_width="335dp"
+          android:layout_height="53dp"
+          android:background="#1AFBFAFA"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:text="About Us"
+          android:layout_marginTop="16dp"
+          android:textColor="@color/white"
+          android:textSize="16dp" />
+
+      <Button
+          android:id="@+id/AboutUs"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="end"
+          android:layout_marginTop="3dp"
+          android:background="#1AFBFAFA"
+          android:gravity="center"
+          android:text="Click Here ->"
+          android:textSize="12dp" />
+   </FrameLayout>
+
+</LinearLayout>
